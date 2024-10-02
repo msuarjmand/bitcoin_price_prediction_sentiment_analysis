@@ -19,3 +19,11 @@ The code repository for "Bitcoin price prediction based on financial data, techn
 ## Bitcoin price prediction based on financial data, technical indicators, and news headlines sentiment analysis using CNN and GRU deep learning algorithms
 
 Bitcoin is the leading cryptocurrency with the highest market value among digital currencies. Therefore, predicting the value of Bitcoin can help to understand the entire cryptocurrency market. However, Bitcoin has had a lot of price fluctuations since its inception. In this paper, we are going to forecast the price of Bitcoin using news headline analysis, technical analysis indicators, and historical financial data. The news headlines used in this article are scraped from the Cointelegraph news website, which contains 3988 news headlines related to Bitcoin between 2/7/2020 and 3/8/2021. A transformer pre-trained model on cryptocurrency-related texts called CryptoBERT, which is a BERT-based sentiment analysis model, has been used to analyze the textual data. Also, a novel hybrid 2DCNN-GRU deep learning model has been used to predict the price. To adjust the parameters of this model, a parameter tuning method based on orthogonal arrays called the Taguchi method has been employed. Finally, to examine the proposed model’s efficiency, the obtained results have been compared with other deep learning models from the literature review that used text data to predict bitcoin prices. The results show that this model outperformed other models in terms of MAE criterion, while in the other three criteria, namely MSE, RMSE and MAPE, it still demonstrated good results.
+
+## Prerequisites
+
+The following packages are required to run the code:
+
+- [TensorFlow](https://www.tensorflow.org/resources/libraries-extensions)
+- [TensorFlow_Keras](https://www.tensorflow.org/guide/keras)
+- [NLTK](https://www.nltk.org/)

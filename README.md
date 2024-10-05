@@ -28,3 +28,4 @@ The following packages are required to run the code:
 - [TensorFlow_Keras](https://www.tensorflow.org/guide/keras)
 - [NLTK](https://www.nltk.org/)
 - [TA-Lib](https://ta-lib.org/)
+- [Transformers](https://huggingface.co/docs/transformers/en/index)

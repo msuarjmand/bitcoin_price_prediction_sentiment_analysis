@@ -27,3 +27,4 @@ The following packages are required to run the code:
 - [TensorFlow](https://www.tensorflow.org/resources/libraries-extensions)
 - [TensorFlow_Keras](https://www.tensorflow.org/guide/keras)
 - [NLTK](https://www.nltk.org/)
+- [TA-Lib](https://ta-lib.org/)
